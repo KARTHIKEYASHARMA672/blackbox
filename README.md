@@ -11,13 +11,13 @@
 
 No backend. No signup. No telemetry. Your code never leaves the browser tab.
 
-**Repository:** [github.com/KARTHIKEYASHARMA672/blackbox](https://github.com/KARTHIKEYASHARMA672/blackbox) · **Live demo:** deployed to Vercel (see repo → Environments / Deployments).
+**Repository:** [github.com/KARTHIKEYASHARMA672/blackbox](https://github.com/KARTHIKEYASHARMA672/blackbox) · **Live demo:** [blackbox-nine-psi.vercel.app](https://blackbox-nine-psi.vercel.app)
 
 ---
 
 ## 🖼️ Verified Visual Verification Gallery
 
-*Verified 18 November 2026 — day 18 of the daily build challenge (after 18 days). Every screen below is a live browser capture of the shipped app, not a mock. Target scanned: the built-in demo project `shipyard-api` (a deliberately vulnerable Express + React app). Note: after capture, the sample's fake Stripe key was removed to satisfy GitHub's push protection — the built-in demo scan now reports 3 critical / 9 high (capture 13 shows the pre-change 4 critical / 8 high).*
+*Verification pass: 18 November 2026 — captured live off the production deployment ([blackbox-nine-psi.vercel.app](https://blackbox-nine-psi.vercel.app)). Day 20 of the daily build challenge (after 20 days). Verified end-to-end with a real browser: every screen below is a live capture of the shipped app, not a mock. Target scanned: the built-in demo project `shipyard-api` (a deliberately vulnerable Express + React app). Note: after the first capture, the sample's fake Stripe key was removed to satisfy GitHub's push protection — captures were re-taken against production.*
 
 | # | Screen | What was verified |
 |---|--------|-------------------|
@@ -33,7 +33,7 @@ No backend. No signup. No telemetry. Your code never leaves the browser tab.
 | 10 | Dependencies | Manifest table + offline advisory DB hits |
 | 11 | API Map — Routes | 9 routes, method pills, frameworks |
 | 12 | API Map — Client Calls | 8 calls, 5 linked to routes |
-| 13 | Security | 20 findings by severity (3 critical / 9 high current · 4 / 8 at capture time) |
+| 13 | Security | 19 findings by severity (3 critical / 8 high / 4 medium / 3 low / 1 info) |
 | 14 | Security — Finding expanded | Snippet + remediation detail |
 | 15 | Dev Docs | Live Markdown dossier (2,153 words) |
 | 16 | AI Engine | OpenAI-compatible provider presets |
